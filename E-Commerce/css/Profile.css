@@ -1,0 +1,144 @@
+a{
+    color: #000066;
+}
+main .section{
+    padding: 100px 0px;
+    min-width: 260px;
+}
+.widget.user {
+    padding-top: 50px;
+}
+
+.widget{
+    background: #fff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px 30px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.widget.user .image img{
+    width: 157px;
+    height: 157px;
+    border-radius: 100%;
+    border: 7px solid #dedede;
+}
+
+.widget.user h5{
+    font-size: 20px;
+    margin-top: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.widget .widget-header{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.widget.personal-info .form-group, .widget.change-password .form-group{
+    margin-bottom: 25px;
+}
+
+.widget.personal-info button, .widget.change-password button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btn-transparent{
+    background: transparent;
+    color: #5672f9;
+    border: 1px solid #5672f9;
+    padding: 15px 30px;
+
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+}
+
+ou, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-transparent:hover{
+    background: #082de1;
+    color: #fff;
+}
+
+.btn:active, .btn:focus{
+    /*color: #ddd;*/
+    box-shadow: none;
+}
+
+.user-dashboard-menu{
+    color: #003366;
+}
+.user-profile{
+    background-image: url('../images/profileBackground.jpg');
+    /*background-repeat: no-repeat;*/
+    min-height: 200vh;
+}
+
+.success, .error{
+    border: 1px solid;
+    margin: 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+}
+
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image: url('https://i.imgur.com/Q9BGTuy.png');
+}
+
+.btn-primary{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
